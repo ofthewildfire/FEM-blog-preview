@@ -17,8 +17,19 @@
   font-display: swap;
 }
 
+/* Custom styles */
+
 body {
   font-family: "Figtree-600";
+}
+
+h1,
+.author-container__author-name {
+  font-family: 'Figtree-800';
+}
+
+.blog-card {
+  box-shadow: 8px 5px 0px black;
 }
 
 /* npx tailwindcss -i ./style.css -o ./output.css --watch */
